@@ -59,8 +59,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
-    "tether": "latest",
-    "vue": "^2.3.3"
+    "tether": "latest"
   },
   "devDependencies": {
     "@nuxtjs/pwa": "^0.2.0",
@@ -89,6 +88,9 @@
     "rollup-watch": "^4.0.0",
     "standard-version": "^4.2.0",
     "uglify-es": "^3.0.23"
+  },
+  "peerDependencies": {
+    "vue": "^2.3.3"
   },
   "jest": {
     "testRegex": "spec.js$",
